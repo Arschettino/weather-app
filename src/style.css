@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(200,200,200);
+    padding: 10px 20px;
+    height: 60px;
+}
+
+.search {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+input#city {
+    height: 20px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 30px;
+}
+
+button:active {
+    background-color: orange;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh-100px);
+    flex-direction: column;
+}
+
+.content > div {
+    height: 100px;
+    text-align: center;
+}
