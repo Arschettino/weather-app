@@ -34,7 +34,6 @@ async function getWeather(city) {
     let coordinates = await callCoordinates(city);
     let response = await callWeather(coordinates.lat, coordinates.lon);
     let weather = await response.json();
-    console.log(weather);
     return weather;
 }
 
